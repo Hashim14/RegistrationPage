@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Form from "./Components/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="myPage">
+      <div className="App">
+        <Form />
+      </div>
+      <div className="watermark">
+        Made by{" "}
+        <a title="hashim" href="https://endearing-fox-66407c.netlify.app/">
+         {" "}Mohammed Hashim
         </a>
-      </header>
+      </div>
     </div>
   );
 }
